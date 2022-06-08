@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Les métiers du codage</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+<body>
+  <header>
+      <div id="progress"></div>
+      <div>
+        <a href="index.html"
+          ><img src="logo_site.png" alt="logo du site" class="logo" href="#"
+        /></a>
+        <a href="newsletter.html">
+          <div class="newsletter">
+            <img src="enveloppe1.png" alt="newsletter" class="theenveloppe" />
+          </div>
+        </a>
+        <a href="contact.html">
+            <div class="contact">
+              <img src="contact.png" alt="contact" class="thecontact" />
+            </div>
+          </a>
+        <h1 class="titleofthefooter">Les métiers de l'informatique</h1>
+      </div>
+      <div class="blockBarreDeRecherche">
+        <input
+          class="barreDeRecherche"
+          type="search"
+          id="search"
+          placeholder="Recherche..."
+        />
+        <button class="search"></button>
+      </div>
+      <nav class="headpart">
+        <ul id="premiernav">
+          <li>
+            <a class="forthelistofheader">Formations</a>
+            <ul class="sous">
+              <li><a href="postBrevet.html" class="sousmenu">Post brevet</a></li>
+              <li><a href="postBac.html" class="sousmenu">Post bac</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="forthelistofheader">Métiers</a>
+            <ul class="sous">
+              <li><a href="CODAGE.html" class="sousmenu">Codage</a></li>
+              <li><a href="GRAPHISME.html" class="sousmenu">Graphisme</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="forthelistofheader">Interviews</a>
+            <ul class="sous">
+              <li><a href="interviews.html#" class="sousmenu">Professionnels</a></li>
+              <li><a href="interviews.html#haut" class="sousmenu">Autres</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  <div class="block123">
+    <div class="sousBlock123" id="code">
+        <div class="espace">
+          <div class="ariane">
+              <div class="maintitle">
+                <h1 id="arititle">
+                  Fil d'arianne
+                </h1>
+              </div>
+              <nav aria-label="Breadcrumb" class="filariane">
+                <ul>
+                  <li><a href="index.html" class="arianelement">Accueil </a></li>
+                  <li><span aria-current="page" class="arianelement">Codage</span></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+      <div id="formargbot">
+      <div id="workEx">
+        <h1 class="maintitle3">Les métiers du codage</h1>
+        <div class="m1codage">
+          <h1 class="soustitre1" >Web Master</h1>
+          <a
+              href="webmaster.html">
+              <img
+                src="webmaster.jpeg"
+                class="imagework"/>
+          </a>
+        </div>
+        <div class="m1codage">
+          <h1 class="soustitre1">Administrateur réseaux</h1>
+          <a
+              href="adminreseau.html">
+              <img
+                src="administrateur-systemes-reseaux.jpg"
+                class="imagework"/>
+          </a>
+        </div>
+        <div class="m1codage">
+          <h1 class="soustitre1">Analyste SOC</h1>
+          <a
+              href="analysteSOC.html">
+              <img
+                src="analysteSOC.jpg"
+                class="imagework"/>
+          </a>
+        </div>
+        <div class="m1codage">
+          <h1 class="soustitre1">Pentester</h1>
+          <a
+              href="pentester.html">
+              <img
+                src="pentester.jpg"
+                class="imagework"/>
+          </a>
+        </div>
+        <div class="m1codage">
+          <h1 class="soustitre1">Développeur Full Stack</h1>
+          <a
+              href="devfullstack.html">
+              <img
+                src="devfullstack.jpg"
+                class="imagework"/>
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <footer class="footpart">
+      <li>
+        <a href="Site-de-reference.html" class="forthelistofheader">Sites de références</a>
+      </li>
+      <li>
+        <a href="questionnaire.html" class="forthelistofheader">FAQ</a>
+      </li>
+        <li>
+        <a href="mentions_legales.html" class="forthelistofheader">Mentions légales</a>
+      </li>
+    </footer>
+</body>
+  <script>
+    window.onload = () => {
+  // Ecouteur d'évènement sur scroll
+  window.addEventListener("scroll", () => {
+      // Calcul de la hauteur "utile" du document
+      let hauteur = document.documentElement.scrollHeight - window.innerHeight
+
+      // Récupération de la position verticale
+      let position = window.scrollY
+
+      // Récupération de la largeur de la fenêtre
+      let largeur = document.documentElement.clientWidth
+
+      // Calcul de la largeur de la barre
+      let barre = position / hauteur * largeur
+
+      // Modification du CSS de la barre
+      document.getElementById("progress").style.width = barre+"px"
+  })
+}
+$(function(){
+      $(document).on('scroll',function(){ // Détection du scroll
+        
+        // Calcul de la hauteur "utile"
+        let hauteur = $(document).height()-$(window).height()
+        
+        // Récupération de la position verticale
+        let position = $(document).scrollTop()
+    
+        // Récupération de la largeur de la fenêtre
+        letlargeur = $(window).width()
+    
+        // Calcul de la largeur de la barre		
+        let barre = position / hauteur * largeur
+        
+        // Modification du CSS pour élargir ou réduire la barre		
+        $("#progress").css("width",barre)
+      });
+    });</script>
+</html>

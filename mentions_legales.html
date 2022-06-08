@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inscription / Connexion a la Newsletter</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div id="progress"></div>
+      <div>
+        <a href="index.html"
+          ><img src="logo_site.png" alt="logo du site" class="logo" href="#"
+        /></a>
+        <a href="newsletter.html">
+          <div class="newsletter">
+            <img src="enveloppe1.png" alt="newsletter" class="theenveloppe" />
+          </div>
+        </a>
+        <a href="contact.html">
+          <div class="contact">
+            <img src="contact.png" alt="contact" class="thecontact" />
+          </div>
+        </a>
+        <h1 class="titleofthefooter">Les métiers de l'informatique</h1>
+      </div>
+      <div class="blockBarreDeRecherche">
+        <input
+          class="barreDeRecherche"
+          type="search"
+          id="search"
+          placeholder="Recherche..."
+        />
+        <button class="search"></button>
+      </div>
+      <nav class="headpart">
+        <ul id="premiernav">
+          <li>
+            <a class="forthelistofheader">Formations</a>
+            <ul class="sous">
+              <li>
+                <a href="postBrevet.html" class="sousmenu">Post brevet</a>
+              </li>
+              <li><a href="postBac.html" class="sousmenu">Post bac</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="forthelistofheader">Métiers</a>
+            <ul class="sous">
+              <li><a href="CODAGE.html" class="sousmenu">Codage</a></li>
+              <li><a href="GRAPHISME.html" class="sousmenu">Graphisme</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="forthelistofheader">Interviews</a>
+            <ul class="sous">
+              <li>
+                <a href="interviews.html#" class="sousmenu">Professionnels</a>
+              </li>
+              <li>
+                <a href="interviews.html#haut" class="sousmenu">Autres</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="espace">
+      <div class="ariane">
+        <div class="maintitle">
+          <h1 id="arititle">
+            Fil d'arianne
+          </h1>
+        </div>
+        <nav aria-label="Breadcrumb" class="filariane">
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><span aria-current="page">Mentions légales</span></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="margtop">
+    <div id="test">
+      <h2 class="maintitle3">Plan du site</h2>
+      <div id="plansite">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="newsletter.html">Newsletter</a></li>
+        <li id="sanspage">Formations</li>
+          <ul>
+            <li><a href="postbrevet.html">Post Brevet</a></li>
+            <li><a href="postbac.html">Post Bac</a></li>
+          </ul>
+          <li id="sanspage">Métiers</li>
+            <ul>
+              <li><a href="CODAGE.html">Codage</a></li>
+                <ul>
+                  <li><a href="webmaster.html">Web Master</a></li>
+                  <li><a href="adminreseau.html">Administrateur réseaux</a></li>
+                  <li><a href="analysteSOC.html">Analyste SOC</a></li>
+                  <li><a href="pentester.html">Pentester</a></li>
+                  <li><a href="devfullstack.html">Développeur Full Stack</a></li>
+                </ul>
+              <li><a href="GRAPHISME.html">Graphisme</a></li>
+                <ul>
+                  <li><a href="webdesigner.html">Web Designer</a></li>
+                  <li><a href="gamedesigner.html">Game Designer</a></li>
+                  <li><a href="maquettistePAO.html">Maquettiste PAO</a></li>
+                  <li><a href="infographiste.html">Infographiste</a></li>
+                  <li><a href="dirarti.html">Directeur artistique</a></li>
+                </ul>
+            </ul>
+          <li id="sanspage">Interview</li>
+            <ul>
+              <li><a href="interviews.html">Professionnels</a></li>
+                <ul>
+                  <li><a href="interview-developpeurweb.html">Pierre Hurdebourcq (Dév. Web)</a></li>
+                  <li><a href="professeur.html">Laurent Proust (Professeur)</a></li>
+              <li><a href="interviews.html#haut">Autres</a></li>
+            </ul>
+          </ul>
+          <li><a href="Site-de-reference.html">Sites de références</a></li>
+          <li><a href="questionnaire.html">FAQ</a></li>
+          <li><a href="mentions_legales.html">Mentions légales</a></li>
+      </ul>
+    </div>
+    </div>
+    <div id="test2" class="CharteGraphique">
+      <h1 class="maintitle3">Charte Graphique</h1>
+    </div>
+  </div>
+    <footer class="footpart">
+      <li>
+        <a href="Site-de-reference.html" class="forthelistofheader"
+          >Site de reference</a
+        >
+      </li>
+      <li>
+        <a href="questionnaire.html" class="forthelistofheader">FAQ</a>
+      </li>
+      <li>
+        <a href="mentions_legales.html" class="forthelistofheader"
+          >Mentions légale</a
+        >
+      </li>
+    </footer>
+  </body>
+  <script>
+    window.onload = () => {
+      // Ecouteur d'évènement sur scroll
+      window.addEventListener("scroll", () => {
+        // Calcul de la hauteur "utile" du document
+        let hauteur =
+          document.documentElement.scrollHeight - window.innerHeight;
+
+        // Récupération de la position verticale
+        let position = window.scrollY;
+
+        // Récupération de la largeur de la fenêtre
+        let largeur = document.documentElement.clientWidth;
+
+        // Calcul de la largeur de la barre
+        let barre = (position / hauteur) * largeur;
+
+        // Modification du CSS de la barre
+        document.getElementById("progress").style.width = barre + "px";
+      });
+    };
+    $(function () {
+      $(document).on("scroll", function () {
+        // Détection du scroll
+
+        // Calcul de la hauteur "utile"
+        let hauteur = $(document).height() - $(window).height();
+
+        // Récupération de la position verticale
+        let position = $(document).scrollTop();
+
+        // Récupération de la largeur de la fenêtre
+        letlargeur = $(window).width();
+
+        // Calcul de la largeur de la barre
+        let barre = (position / hauteur) * largeur;
+
+        // Modification du CSS pour élargir ou réduire la barre
+        $("#progress").css("width", barre);
+      });
+    });
+  </script>
+</html>

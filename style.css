@@ -1,0 +1,1015 @@
+body {
+  padding: 0;
+  min-height: 100%;
+  margin: 0;
+  position: relative;
+  font-family: "Poppins", Arial;
+  color: black;
+  background: url("fd559116.png");
+  background-size: 200% 100%;
+  background-attachment: fixed;
+}
+.fondgris {
+  background-color: rgba(105, 105, 105, 0.8);
+  position: fixed;
+  z-index: 300000;
+}
+.faittest {
+  top: 0vh;
+  left: 0vw;
+  float: center;
+  background: url("fond-diplome-etudiant-heureux_23-2147631173.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center top;
+  z-index: 51;
+  padding: 1vw 10vh 20vw 10vh;
+  margin: 0 25vw 0 20vw;
+  font-size: 4vh;
+}
+#pubtitle {
+  margin-bottom: 60vh;
+  background-color: rgb(255, 255, 0);
+  text-align-last: center;
+  padding-left: 2vw;
+  inline-size: fit-content;
+  padding-right: 2vw;
+  border: 0.3vh solid black;
+  box-shadow: 0.8vh 0.5vw black;
+}
+#boutonacceuil {
+  margin-top: 3vh;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+p {
+  padding-top: 1vh;
+}
+button {
+  border-radius: 100%;
+  height: 3vh;
+  width: 1.5vw;
+  position: relative;
+  margin-left: 28.5vw;
+  padding: 0;
+  min-height: 100%;
+  position: relative;
+  border: 0px solid white;
+  background-attachment: fixed;
+  background: url("search-outline.png");
+  background-size: 100% 100%;
+}
+#boutonpub,
+input[type="button"],
+input[type="reset"] {
+  background-color: #3081ba;
+  color: white;
+  border: 0.3vh solid black;
+  padding: 1vh 1vw;
+  border-radius: 0.5em;
+  transition: 0.3s background-color ease, 0.3s color ease;
+}
+#boutonpub {
+  margin-top: 10vh;
+}
+#boutonpub:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover {
+  background-color: yellow;
+  color: black;
+}
+input[type="button"],
+input[type="reset"] {
+  width: 12vw;
+  height: 6vh;
+  font-size: 2vh;
+  margin-top: 2vh;
+}
+
+.espace {
+  padding-top: 27.5vh;
+}
+.ariane {
+  width: 66%;
+  height: 7.5vh;
+  margin-left: 1vw;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#arititle {
+  font-size: 2vh;
+  align-content: center;
+}
+.deroulant_princi {
+  display: flex;
+  float: left;
+  width: 70vw;
+  flex-direction: column;
+  margin: 1vh 1vw 0vh 1vw;
+  padding-top: 10vh;
+  padding-bottom: 1vh;
+}
+
+#maps {
+  float: left;
+  font-size: 3vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 2;
+  width: 100%;
+  padding-left: 1vw;
+}
+.marginf {
+  margin-bottom: 7vh;
+}
+#carte1 {
+  position: relative;
+  box-sizing: content-box;
+  top: 2vh;
+  left: 1vw;
+  margin-bottom: 3vh;
+}
+.mapiframe {
+  border: 1vh outset lightgray;
+  width: 59vw;
+  height: 50vh;
+}
+
+#news {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  align-content: center;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  margin-top: 11vh;
+  margin-right: 1vw;
+}
+.image {
+  height: 23vh;
+  width: 20vw;
+}
+#column {
+  display: flex;
+  flex-direction: column;
+}
+.logo2 {
+  height: 10.8vh;
+  width: 5vw;
+  padding: 0.7vh 1vw;
+}
+
+.logoreseau {
+  text-align: left;
+  color: white;
+  display: flex;
+  flex-direction: wrap;
+  line-height: 12vh;
+  margin-top: 3vh;
+  font-size: 4vh;
+  border-radius: 10vh;
+  transition: all 0.5s ease;
+}
+.logoreseau:hover {
+  font-size: 5vh;
+  color: yellow;
+  transform: scale(1.1);
+}
+#colorblue {
+  background-color: #3b5998;
+}
+#colorred {
+  background-color: red;
+}
+#colorcyan {
+  background-color: #00acee;
+}
+#droit {
+  font-size: 2vh;
+  text-align: right;
+  padding-right: 10vw;
+  margin-top: 3vh;
+}
+.pub {
+  padding-bottom: 5vh;
+  font-size: 2.5vh;
+}
+#historique {
+  float: right;
+  font-size: 3vh;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-left: 1vw;
+  hyphens: auto;
+  margin-top: 10vh;
+  align-content: center;
+}
+#historicvid {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+.Block {
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  width: 32%;
+  font-size: 3vh;
+  height: 5vh;
+}
+
+.logo {
+  float: left;
+  height: 7vh;
+  margin-top: 1.5vh;
+  margin-left: 1vw;
+}
+.newsletter,
+.contact {
+  float: right;
+  background-color: yellow;
+  border: 0.3vw solid green;
+  padding: 0.9vh 0.5vw;
+  margin-top: 1vh;
+  margin-right: 0.5vw;
+  border-radius: 3vh;
+}
+.newsletter {
+  width: 3vw;
+  height: 5vh;
+}
+.contact {
+  width: 3vw;
+  height: 5vh;
+}
+
+.tousBlock {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 30vh;
+  height: 30vh;
+}
+
+#allo {
+  width: 100vh;
+  margin-left: 0px;
+}
+.theenveloppe {
+  height: 4.8vh;
+  width: 3vw;
+}
+.thecontact {
+  height: 5vh;
+  width: 2.3vw;
+}
+.theenveloppe:hover,
+.thecontact:hover {
+  transform: scale(1.15);
+}
+div {
+  display: flex;
+  text-align: center;
+  display: block;
+  justify-items: end;
+}
+
+header {
+  z-index: 50000;
+  height: 16vh;
+  padding: 15vh auto;
+  position: fixed;
+  width: 100%;
+}
+
+header,
+nav.headpart,
+footer.footpart {
+  background-color: #3081ba;
+  font-size: 3vh;
+}
+
+nav.headpart {
+  padding-top: 2.3vh;
+  z-index: 50001;
+}
+
+nav.headpart > ul > li,
+footer.footpart > li {
+  float: left;
+  width: 33.333333333%;
+  text-align: center;
+  position: relative;
+}
+
+nav.headpart ul::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav > ul#premiernav a,
+footer a {
+  display: block;
+  text-decoration: none;
+  padding: 1vh 0vw;
+}
+nav > ul#premiernav a:not(.sousmenu),
+footer > li {
+  color: white;
+  transition: color 0.5s ease, background-color 0.5s ease;
+}
+a:hover,
+footer a:hover {
+  color: yellow;
+  transition: color 0.5s ease;
+}
+a:not(.forthelistofheader, .logoreseau):visited,
+a:not(.forthelistofheader, .logoreseau):link {
+  color: blue;
+}
+
+nav.headpart a,
+footer.footpart a {
+  transition: background-color 0.5s ease;
+}
+nav.headpart a:hover,
+footer.footpart a:hover {
+  color: yellow;
+  background-color: rgb(48, 146, 215);
+  box-shadow: 0 0 0 1vh 10em #aaa;
+  z-index: 51;
+}
+
+.sous {
+  display: none;
+  box-shadow: 0.3vh 0.3vw 1em black;
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+nav > ul li:hover .sous {
+  display: block;
+}
+
+.sous li {
+  float: none;
+  width: 100%;
+  text-align: left;
+  text-indent: 1vw;
+}
+
+.conteneur {
+  margin: 50px 20px;
+  height: 159.7vh;
+}
+
+h1 {
+  padding-bottom: 1vh;
+  text-align: center;
+}
+
+.maintitle,
+.maintitle2,
+.maintitle3,
+.centeryellowtitle {
+  position: relative;
+  left: 2vw;
+  top: -2vh;
+  background-color: rgb(255, 255, 0);
+  text-align-last: left;
+  padding-left: 2vw;
+  inline-size: fit-content;
+  padding-right: 2vw;
+  border: 0.3vh solid black;
+  box-shadow: 0.8vh 0.5vw black;
+}
+.maintitle {
+  font-size: 2vh;
+}
+.maintitle2 {
+  margin-top: 15%;
+  margin-left: 35%;
+}
+.maintitle3,
+#sizetitleinter {
+  font-size: 4vh;
+}
+
+.centeryellowtitle {
+  top: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2.5vh;
+}
+
+#sizetitlemetier.soustitre1 {
+  font-size: 2.5vh;
+}
+
+.soustitre1 {
+  position: relative;
+  left: 0.2vw;
+  top: -3vh;
+  background-color: rgb(255, 255, 0);
+  text-align-last: left;
+  inline-size: fit-content;
+  border: 0.3vh solid black;
+  box-shadow: 0.8vh 0.5vw black;
+  z-index: 102;
+  margin-left: 0.5vh;
+}
+.titleofthefooter {
+  background-color: rgb(255, 255, 0);
+  text-align-last: left;
+  inline-size: fit-content;
+  border: 0.3vh solid black;
+  box-shadow: 0.8vh 0.5vw black;
+  margin: 0 auto;
+  margin-top: 1vh;
+  padding-right: 2vw;
+  padding-left: 2vw;
+}
+
+.blockBarreDeRecherche {
+  margin: auto;
+  text-align: left;
+  width: 30vw;
+  height: 3vh;
+  margin-top: 2.5vh;
+  border-radius: 1vh;
+  border: 0.3vh solid green;
+  background-color: white;
+}
+.barreDeRecherche {
+  position: absolute;
+  border: 0vh solid white;
+  border-radius: 1vh;
+  height: 3vh;
+  width: 28vw;
+  font-size: 2vh;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+footer {
+  background-color: #3081ba;
+  border-top: 0.3vh solid black;
+  border-bottom: 0.3vh solid black;
+  width: 100%;
+  display: inline-flex;
+  clear: both;
+}
+
+fieldset {
+  margin-bottom: 4vh;
+  padding: 3vh 3vw;
+}
+
+legend {
+  font-weight: bold;
+  font-variant: small-caps;
+  left: 2vw;
+  top: -2vh;
+  background-color: rgb(255, 255, 0);
+  text-align-last: left;
+  padding-left: 2vw;
+  inline-size: fit-content;
+  padding-right: 2vw;
+  border: 0.3vh solid black;
+  box-shadow: 0.8vh 0.5vw black;
+}
+
+label {
+  width: 10vw;
+  display: inline-block;
+  padding: 0vh 0.4vw;
+  vertical-align: top;
+  margin: 0.5vh 0.5vw;
+}
+#ecartement {
+  margin-bottom: 3vh;
+}
+em {
+  font-weight: bold;
+  font-style: normal;
+  color: #f00;
+}
+
+input:focus {
+  background: #eaeaea;
+}
+
+input,
+textarea {
+  inline-size: fit-content;
+}
+
+textarea {
+  height: 10.5vh;
+}
+
+select {
+  width: 13.5vw;
+}
+
+input[type="checkbox"] {
+  width: 0.5vw;
+}
+
+input[type="submit"] {
+  width: 8vw;
+  height: 8vh;
+  font-size: 2vh;
+}
+
+.casemétier {
+  color: black;
+  font-size: 13px;
+  margin-top: 78vh;
+  margin-left: 5%;
+  width: 12%;
+  background-color: white;
+  height: 32vh;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  border: 0.3vh solid black;
+}
+
+.professionnel {
+  background-image: url(mains.jpg);
+  background-size: cover;
+  height: 100%;
+  border-bottom: 1.6vh black solid;
+}
+.autres {
+  background-image: url(mains2.jpg);
+  background-size: cover;
+  height: 70vh;
+}
+
+.block123 {
+  width: 100%;
+}
+
+.sousBlock123 {
+  height: 92.6vh; 
+}
+
+#code {
+  background-image: url(rear-view-of-programmer-working-all-night-long.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+#graphisme,
+#graphisme1 {
+  background-image: url(working-on-code.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+#graphisme,
+#code {
+  height: 100%;
+}
+#graphisme1 {
+  height: 94.1vh;
+}
+
+#workEx,
+.workEx2,
+.fichemetier {
+  font-size: 2.5vh;
+}
+#workEx {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 3vh;
+  padding-left: 2vh;
+  margin-top: 6vh;
+  margin-left: 1vw;
+  margin-bottom: 1vw;
+}
+
+.workEx2 {
+  text-align: center;
+  align-content: center;
+  margin-left: 3vw;
+  display: flex;
+  width: 90vw;
+  flex-direction: row;
+}
+.workEx2 > #workEx {
+  width: 40vw;
+  margin-right: 5vw;
+}
+
+.alignleft {
+  text-align: left;
+  width: 95%;
+}
+#test {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0vh 1vw;
+  float: left;
+  margin-left: 5vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  height: 130vh;
+  width: 42%;
+}
+#test2 {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0vh 1vw;
+  float: right;
+  margin-right: 5vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  height: 130vh;
+  width: 42%;
+}
+#espacedessous {
+  margin-bottom: 8.5vh;
+}
+.fichemetier {
+  margin-left: 4vw;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 3vh;
+  padding-left: 2vh;
+  margin-top: 6vh;
+  width: 83vw;
+}
+.voiraussi {
+  text-align: left;
+  width: 90vw;
+}
+.voiraussi2 {
+  text-align: left;
+  width: 50vw;
+  float: left;
+}
+#formargbot {
+  padding-bottom: 2vh;
+}
+#formargbot2 {
+  padding-bottom: 37vh;
+}
+
+.m1codage,
+.m1codage3 {
+  color: black;
+  width: 25vw;
+  background-color: lightgray;
+  height: 25vh;
+  display: inline-block;
+  vertical-align: middle;
+  z-index: 200;
+}
+.m1codage {
+  margin-top: 10vh;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+  font-size: 1.5vh;
+}
+.m1codagebis {
+  color: black;
+  font-size: 2vh;
+  width: 100%;
+  height: 100%;
+  background-color: lightgray;
+  display: inline-block;
+  vertical-align: middle;
+  z-index: 200;
+}
+.m1codage3 {
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+  font-size: 2vh;
+}
+.video {
+  position: relative;
+  top: -4.5vh;
+  z-index: 100;
+  border: 0.4vh outset gray;
+}
+
+.imagework {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  
+  z-index: 100;
+  border: 0.4vh outset gray;
+}
+.m1codage3 .imagework{
+  top: -6.8vh;
+}
+.m1codage .imagework{
+  top: -5.7vh;
+}
+.m1codagebis .imagework,.m1codagebis iframe{
+  top: -6.5vh;
+}
+.m1codage:hover {
+  background-color: gray;
+  z-index: 201;
+}
+.imagework:hover {
+  filter: opacity(0.7);
+}
+
+#haut {
+  margin-top: 37vh;
+}
+
+.casemétiergr,
+.casemétiergr2 {
+  color: black;
+  font-size: 2vh;
+  margin-top: 10vh;
+  width: 30%;
+  height: 40vh;
+  display: inline-block;
+  vertical-align: middle;
+}
+.casemétiergr {
+  padding: 0.5vh 0.5vw;
+}
+.casemétiergr2 {
+  margin-right: 3vh;
+}
+
+.backgroundNewsletter {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 35vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2.7vh;
+  margin-top: 3vh;
+  border: 0.2vh outset black;
+}
+div.backgroundNewsletter {
+  padding: 2vh;
+}
+.backgroundNewsletter input {
+  height: 3vh;
+  font-size: 3vh;
+}
+label > input,
+label > select#sexe > option {
+  margin-bottom: 3vh;
+}
+
+#sexe {
+  width: 18.2vw;
+  height: 4vh;
+  font-size: 3vh;
+}
+label > select#sexe > option {
+  width: 3vh;
+  height: 5vw;
+}
+.forthelistofheader {
+  text-shadow: #141414 0.3vh 0.3vw 1em, 0.1vh 0.1vw black;
+  font-size: 4vh;
+  border-left: 0.15vw solid black;
+  border-right: 0.15vw solid black;
+  color: white;
+}
+
+.arianelement,
+.filariane ul,
+.filariane li::before {
+  font-size: 2.5vh;
+}
+div#workEx.voiraussi > ul {
+  color: blue;
+}
+.filariane {
+  height: 3vh;
+  margin-left: 1vw;
+}
+
+.filariane ul {
+  display: flex;
+  height: 3vh;
+}
+
+.filariane li::before {
+  content: "/";
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
+
+.filariane li:first-child::before {
+  content: "";
+}
+form.grandcadre {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 50vh;
+  margin-top: 3vh;
+  margin-left: 1vw;
+  margin-bottom: 2.8vh;
+  width: 80vw;
+  padding: 1vh 1vw;
+  align-content: center;
+}
+table {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: -6vh;
+}
+td.yesorno p {
+  font-size: 3vh;
+  text-align: center;
+  margin-bottom: 1vh;
+  inline-size: fit-content;
+  margin: 0 auto;
+}
+tr {
+  border: 0.3vh solid black;
+}
+.questions p {
+  font-size: 3vh;
+  width: 50vw;
+  height: 3vh;
+  margin-top: 1vh;
+}
+.reponse {
+  text-align: center;
+  font-size: 3vh;
+  width: 5vw;
+  height: 3vh;
+  margin-top: 1vh;
+  height: 3vh;
+}
+.coche {
+  width: 2vw;
+  height: 2vh;
+}
+#resulttest {
+  text-align: center;
+  height: 3vh;
+  width: 3vw;
+}
+#interview-professeur {
+  background-image: url(professeur.jpeg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+#interview-developerweb {
+  background-image: url(developperweb.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+strong {
+  font-style: italic;
+  text-shadow: 0.3vh 0.3vw 1em black, 0.1vh 0.1vw black;
+  color: white;
+}
+#progress {
+  background-color: yellow;
+  border: 0.2vh solid black;
+  height: 0.2vh;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+@keyframes theslide {
+  0% {
+    left: 0%;
+  }
+  11% {
+    left: -100%;
+  }
+  22% {
+    left: -100%;
+  }
+  33% {
+    left: -200%;
+  }
+  44% {
+    left: -200%;
+  }
+  55% {
+    left: -300%;
+  }
+  66% {
+    left: -300%;
+  }
+  77% {
+    left: -400%;
+  }
+  88% {
+    left: -400%;
+  }
+  100%{
+    left: 0%;
+  }
+}
+
+div#slider {
+  overflow: hidden;
+  height: 33.5vh;
+  width: 25.05vw;
+  margin-left: 15vh;
+}
+div#slider > figure > img {
+  width: 20vw;
+  height: 14vw;
+  float: left;
+}
+div#slider > figure {
+  position: relative;
+  width: 300vw;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 15s theslide infinite;
+}
+#listesite {
+  text-align: left;
+}
+#ppinconnu {
+  width: 13vw;
+  height: 30vh;
+  background-color: beige;
+  border: 1.5vh outset lightgray;
+  padding-top: 1vh;
+  float: right;
+  margin-right: 8vw;
+}
+
+#aaStrong:hover {
+  color: yellow;
+}
+
+.reglageFooterBAC {
+  margin-top: 8vh;
+}
+
+.reglageFooterBrevet {
+  margin-top: 10vh;
+}
+#citation {
+  text-align: center;
+  font-size: 5vh;
+}
+
+input[value="Soumettre"],
+input[value="Connexion"] {
+  width: 15vw;
+  height: 8vh;
+  font-size: 3vh;
+}
+
+.CharteGraphique {
+  background-image: url(CharteGraphique.jpg);
+  background-size: 100% 100%;
+}
+
+.margtop{
+  margin-top:3vh;
+}
+#plansite{
+  text-align:left;
+  font-size:3.5vh;  
+}
+#plansite >ul>li#sanspage{
+text-indent:3vh;
+}
+#plansite ul ul{
+  text-indent:8vh;
+}
+
+#plansite ul ul ul{
+  text-indent:13vh;
+}
+#plansite ul ul li a::before{
+  content: "╚► ";
+  font-size:2.5vh;
+}
+#plansite ul ul ul li a::before{
+content:"└► ";
+font-size:2vh;
+}
+
+#plansite ul > li a::before{
+  content:"► ";
+  font-size:2.5vh;
+}
